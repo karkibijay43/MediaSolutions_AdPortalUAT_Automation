@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="report.config" value="/Users/p2815492/git/AdPortalUATRepo/MediaSolutions_AdPortalUAT_Automation/configs/extent-config.xml" />
+ <!-- <listeners>
+		  <listener class-name="adPortal.extentReporter.TestListener" /> 
+		  
+	  <listener class-name="customExtentReporter.ExtentTestNgFormatter" /> 
+	</listeners> --> 
+  <test thread-count="5" name="AdPortal UAT Regression Test">
+    <classes>
+  <!--  <class name="adPortalUATTestRunner.AdPortal_NewCustomerDashboardView_001_TestRunner"/>
+      <class name="adPortalUATTestRunner.AdPortal_LogIn_002_TestRunner"/>
+      <class name="adPortalUATTestRunner.AdPortal_CreateCampaign_001_TestRunner"/>
+      <class name="adPortalUATTestRunner.AdPortal_CreateCampaign_002_TestRunner"/> 
+       <class name="adPortalUATTestRunner.AdPortal_SSU_LogIn_SignUp_001_TestRunner"/> 
+      <class name=" AdPortal_NewUser_FAQ_link_Functionality_TestRunner"/>
+      <class name="adPortalUATTestRunner.Adportal_LogIn_001_TestRunner"/>  -->
+    <class name="adPortalUATTestRunner.RegressionTestRunner"/>  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
