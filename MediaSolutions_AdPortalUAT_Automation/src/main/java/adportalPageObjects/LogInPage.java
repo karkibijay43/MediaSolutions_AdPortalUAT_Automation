@@ -15,7 +15,7 @@ public class LogInPage {
 	By txtBox_LogInEmail = By.id("email");
 	By txtBox_LogInPassword = By.id("password");
 	By clickLogIn = By.xpath("//*[@id=\"tv-main\"]/app-adportal-login/app-login-signup-reset/div[2]/div/div/form/button");
-	String LogInURL = "https://adportal-uat.brandcdnstage.com/login";
+	String LogInURL = "https://adportal.uat.brandcdnstage.com/login";
 	
 	public LogInPage(WebDriver driver) {
 		this.executor = (JavascriptExecutor) this.driver;

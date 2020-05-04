@@ -21,7 +21,7 @@ public class SignUpPage {
 	By WebElement_checkBox = By.id("terms-condition_span");
 	By WebElement_nextStep = By.xpath("//button[contains(text(),'Next Step')]");
 	By signuplogInLink = By.linkText("Login");
-	String SignUpURL = "https://adportal-uat.brandcdnstage.com/sign-up-1";
+	String SignUpURL = "https://adportal.uat.brandcdnstage.com/sign-up-a";
 
 	public SignUpPage(WebDriver driver) {
 		this.driver = driver;
