@@ -1,31 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="187054" started-at="2020-04-30T01:11:22 MDT" finished-at="2020-04-30T01:14:29 MDT">
+  <suite name="Default suite" duration-ms="10695" started-at="2020-05-04T16:10:10 MDT" finished-at="2020-05-04T16:10:20 MDT">
     <groups>
       <group name="cucumber">
-        <method signature="RegressionTestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:adPortalUATTestRunner.RegressionTestRunner@4ba2ca36]" name="feature" class="adPortalUATTestRunner.RegressionTestRunner"/>
+        <method signature="AdPortal_LogIn_001_TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:adPortalUATTestRunner.AdPortal_LogIn_001_TestRunner@3ffcd140]" name="feature" class="adPortalUATTestRunner.AdPortal_LogIn_001_TestRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="187054" started-at="2020-04-30T01:11:22 MDT" finished-at="2020-04-30T01:14:29 MDT">
-      <class name="adPortalUATTestRunner.RegressionTestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:adPortalUATTestRunner.RegressionTestRunner@4ba2ca36]" name="setUpClass" is-config="true" duration-ms="148" started-at="2020-04-30T01:11:22 MDT" finished-at="2020-04-30T01:11:22 MDT">
+    <test name="Default test" duration-ms="10695" started-at="2020-05-04T16:10:10 MDT" finished-at="2020-05-04T16:10:20 MDT">
+      <class name="adPortalUATTestRunner.AdPortal_LogIn_001_TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:adPortalUATTestRunner.AdPortal_LogIn_001_TestRunner@3ffcd140]" name="setUpClass" is-config="true" duration-ms="170" started-at="2020-05-04T16:10:10 MDT" finished-at="2020-05-04T16:10:10 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:adPortalUATTestRunner.RegressionTestRunner@4ba2ca36]" name="feature" duration-ms="96253" started-at="2020-04-30T01:11:22 MDT" description="Runs cucmber Features" data-provider="features" finished-at="2020-04-30T01:12:58 MDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[AdPortal UAT create campaign feature]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:adPortalUATTestRunner.RegressionTestRunner@4ba2ca36]" name="feature" duration-ms="7763" started-at="2020-04-30T01:12:58 MDT" description="Runs cucmber Features" data-provider="features" finished-at="2020-04-30T01:13:06 MDT">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:adPortalUATTestRunner.AdPortal_LogIn_001_TestRunner@3ffcd140]" name="feature" duration-ms="10115" started-at="2020-05-04T16:10:10 MDT" description="Runs cucmber Features" data-provider="features" finished-at="2020-05-04T16:10:20 MDT">
           <params>
             <param index="0">
               <value>
@@ -36,55 +25,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:adPortalUATTestRunner.RegressionTestRunner@4ba2ca36]" name="feature" duration-ms="25257" started-at="2020-04-30T01:13:06 MDT" description="Runs cucmber Features" data-provider="features" finished-at="2020-04-30T01:13:31 MDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[New customer dashboard view feature]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:adPortalUATTestRunner.RegressionTestRunner@4ba2ca36]" name="feature" duration-ms="32195" started-at="2020-04-30T01:13:31 MDT" description="Runs cucmber Features" data-provider="features" finished-at="2020-04-30T01:14:04 MDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[AdPortal UAT new user FAQ link functionlaity]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:adPortalUATTestRunner.RegressionTestRunner@4ba2ca36]" name="feature" duration-ms="6820" started-at="2020-04-30T01:14:04 MDT" description="Runs cucmber Features" data-provider="features" finished-at="2020-04-30T01:14:10 MDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Reach intro page validation]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:adPortalUATTestRunner.RegressionTestRunner@4ba2ca36]" name="feature" duration-ms="18268" started-at="2020-04-30T01:14:10 MDT" description="Runs cucmber Features" data-provider="features" finished-at="2020-04-30T01:14:29 MDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SSO LogIn SignUP AdportalUAT]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="testDownClass()[pri:0, instance:adPortalUATTestRunner.RegressionTestRunner@4ba2ca36]" name="testDownClass" is-config="true" duration-ms="271" started-at="2020-04-30T01:14:29 MDT" finished-at="2020-04-30T01:14:29 MDT">
+        <test-method status="PASS" signature="testDownClass()[pri:0, instance:adPortalUATTestRunner.AdPortal_LogIn_001_TestRunner@3ffcd140]" name="testDownClass" is-config="true" duration-ms="340" started-at="2020-05-04T16:10:20 MDT" finished-at="2020-05-04T16:10:20 MDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDownClass -->
-      </class> <!-- adPortalUATTestRunner.RegressionTestRunner -->
+      </class> <!-- adPortalUATTestRunner.AdPortal_LogIn_001_TestRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

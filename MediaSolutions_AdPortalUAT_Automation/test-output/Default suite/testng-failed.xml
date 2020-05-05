@@ -7,7 +7,7 @@
         <methods>
           <include name="testDownClass"/>
           <include name="setUpClass"/>
-          <include name="feature"/>
+          <include name="feature" invocation-numbers="0"/>
         </methods>
       </class> <!-- adPortalUATTestRunner.AdPortal_LogIn_001_TestRunner -->
     </classes>
